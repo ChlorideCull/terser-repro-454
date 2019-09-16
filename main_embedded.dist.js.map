@@ -1,0 +1,1 @@
+{"version":3,"sources":["main_embedded.js"],"names":["htmlEmbedded","print","console","log","html"],"mappings":"AAAA,MAAMA,aAAe,2DAQrB,SAASC,QACLC,QAAQC,IAAIH,aAAaI,MAG7BH","sourcesContent":["const htmlEmbedded = '\\\r\n\t\t<div>\\\r\n            <span>Embedded</span>\\\r\n        </div>';\r\n\r\nfunction print() {\r\n    console.log(htmlEmbedded.html);\r\n}\r\n\r\nprint();"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["teststr","console","log","f"],"mappings":"AAAA,MAAMA,QAAU,qBAUhBC,QAAQC,IAAIF,SAEZ,SAASG,IACRF,QAAQC,IAAIF","sourcesContent":["const teststr = '\\\r\nblah\\\r\nblah\\\r\n\tblah\\\r\nbleh';\r\n\r\nconsole.log(teststr);\r\n\r\nfunction f() {\r\n\tconsole.log(teststr);\r\n}\r\n"]}

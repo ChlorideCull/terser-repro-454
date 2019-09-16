@@ -1,0 +1,13 @@
+{
+  "name": "TerserRepro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "terser": "^4.3.1"
+  },
+  "scripts": {
+	"repro": "terser index.js --output index.dist.js --source-map includeSources=true,url=index.dist.js.map --verbose",
+	"repro2": "terser main_embedded.js --output main_embedded.dist.js --source-map includeSources=true,url=main_embedded.dist.js.map --verbose"
+  }
+}
